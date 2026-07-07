@@ -21,3 +21,10 @@ implicit wait test
     Input Text   name=ConfirmPassword   anil123
 
     Close Browser
+
+ Select Radio Button  Gender  M
+    Input Text   name=FirstName  anil
+    Input Text   name=LastName  gorla
+    Input Text   name=Email   anil@gmail.com
+    Input Text   name=Password    anil123
+    Input Text   name=ConfirmPassword   anil123
