@@ -1,0 +1,16 @@
+1778064202029	geckodriver	INFO	Listening on 127.0.0.1:57611
+1778064205335	mozrunner::runner	INFO	Running command: "C:\\Users\\Hp\\.cache\\selenium\\firefox\\win64\\150.0.1\\firefox.exe" "--marionette" "--remote-debugging-p ... 7612" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Hp\\AppData\\Local\\Temp\\rust_mozprofileNALdwF"
+Dynamically enable window occlusion 0
+1778064206261	Marionette	INFO	Marionette enabled
+1778064206487	Marionette	INFO	Listening on port 63537
+WebDriver BiDi listening on ws://127.0.0.1:57612
+Read port: 63537
+1778064206819	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Calling WaitFlushedEvent::Run: is delayed: 2608
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+[WARN  glean_core] Shutdown called before Glean is initialized. Waiting.
+1778064322934	Marionette	INFO	Stopped listening on port 63537
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

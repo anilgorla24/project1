@@ -1,0 +1,66 @@
+Browser Keywords
+
+Open Browser →  open website
+Close Browser → close browser
+Maximize Browser Window → maximize screen
+Go To → navigate to another URL
+
+
+🔍 Element / Search Keywords
+
+Click Element → click button/link
+Input Text → type in textbox
+Clear Element Text → clear input field
+Press Keys → press keyboard keys (ENTER, TAB)
+
+
+⏳ Wait Keywords (VERY IMPORTANT)
+
+Wait Until Element Is Visible → wait until element appears
+Wait Until Page Contains → wait for text
+Wait Until Element Is Enabled → wait until clickable
+
+
+👉 These are must-use to avoid failures
+✅ Validation Keywords
+
+Element Should Be Visible → check element visible
+
+Page Should Contain → check text present
+
+Element Text Should Be → verify exact text
+
+
+🖱️ Mouse Actions
+
+Double Click Element
+Mouse Over
+Drag And Drop
+
+
+📄 Dropdown Keywords
+
+Select From List By Label
+Select From List By Value
+
+📁 Other Useful Keywords
+
+Sleep → wait (not recommended much ❌)
+Capture Page Screenshot → take screenshot
+Execute JavaScript → run JS code
+
+
+⭐ Most Important (Top 10 MUST REMEMBER)
+
+If you remember only these, you're safe:
+
+Open Browser
+Click Element
+Input Text
+Press Keys
+Wait Until Element Is Visible
+Element Should Be Visible
+Page Should Contain
+Close Browser
+Select From List By Label
+Capture Page Screenshot

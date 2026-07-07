@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-07-04T21:39:34.083325" rpa="false" schemaversion="5">
+<suite id="s1" name="Examp" source="C:\Users\Hp\OneDrive\Desktop\Robot\examp.robot">
+<test id="s1-t1" name="test case" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-04T21:39:34.268246" level="INFO">Opening browser 'Chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>https://testautomationpractice.blogspot.com/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-04T21:39:34.268031" elapsed="4.445298"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-04T21:39:38.714252" elapsed="0.042616"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-07-04T21:39:40.758333" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-07-04T21:39:38.757233" elapsed="2.001393"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-04T21:39:40.760430" level="INFO">Typing text 'prawin' into text field 'id=name'.</msg>
+<arg>id=name</arg>
+<arg>prawin</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-04T21:39:40.759404" elapsed="0.098801"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-04T21:39:40.858947" level="INFO">Typing text 'peawn@gmail.com' into text field 'id=email'.</msg>
+<arg>id=email</arg>
+<arg>peawn@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-04T21:39:40.858611" elapsed="0.068435"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-07-04T21:39:42.928642" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-07-04T21:39:40.927460" elapsed="2.001466"/>
+</kw>
+<status status="PASS" start="2026-07-04T21:39:34.267180" elapsed="8.662608"/>
+</test>
+<status status="PASS" start="2026-07-04T21:39:34.085085" elapsed="8.846699"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Examp" id="s1" pass="1" fail="0" skip="0">Examp</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-05-06T12:05:12.346792" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test" source="C:\Users\Hp\OneDrive\Desktop\ram\parallel\test.robot">
+<test id="s1-s1-t1" name="Select Dropdown" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-05-06T12:05:12.596815" level="INFO">Opening browser 'Chrome' to base url 'https://www.knowledgeware.in/Automation/practiceform.html'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-05-06T12:05:12.596351" elapsed="3.305766"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-05-06T12:05:15.902507" elapsed="0.026581"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-06T12:05:20.930862" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-06T12:05:15.929545" elapsed="5.001595"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-05-06T12:05:20.932456" level="INFO">Typing text 'anil' into text field '//*[@id="fname"]'.</msg>
+<arg>//*[@id="fname"]</arg>
+<arg>anil</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-05-06T12:05:20.931563" elapsed="0.166922"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-06T12:05:24.100170" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-06T12:05:21.098803" elapsed="3.001655"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-05-06T12:05:24.101411" level="INFO">Typing text 'gorla' into text field '//*[@id="lname"]'.</msg>
+<arg>//*[@id="lname"]</arg>
+<arg>gorla</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-05-06T12:05:24.100874" elapsed="0.111036"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-06T12:05:27.212980" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-06T12:05:24.212090" elapsed="3.001018"/>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2026-05-06T12:05:27.213455" level="INFO">Selecting 'male' from radio button 'gender'.</msg>
+<arg>gender</arg>
+<arg>male</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="PASS" start="2026-05-06T12:05:27.213271" elapsed="0.091654"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-06T12:05:30.306282" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-06T12:05:27.305349" elapsed="3.001173"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2026-05-06T12:05:30.307057" level="INFO">Selecting checkbox 'music'.</msg>
+<arg>music</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2026-05-06T12:05:30.306774" elapsed="0.082462"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-06T12:05:33.390111" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-06T12:05:30.389419" elapsed="3.000818"/>
+</kw>
+<kw name="Unselect Checkbox" owner="SeleniumLibrary">
+<msg time="2026-05-06T12:05:33.390576" level="INFO">Unselecting checkbox 'music'.</msg>
+<arg>music</arg>
+<doc>Removes the selection of checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2026-05-06T12:05:33.390394" elapsed="0.072981"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-06T12:05:36.465157" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-06T12:05:33.463682" elapsed="3.001768"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2026-05-06T12:05:36.466385" level="INFO">Selecting checkbox 'sports'.</msg>
+<arg>sports</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2026-05-06T12:05:36.465883" elapsed="0.158557"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-06T12:05:39.625856" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-06T12:05:36.624667" elapsed="3.001461"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2026-05-06T12:05:39.627154" level="INFO">Selecting options from selection list 'countrySelect' by label UttarPradesh.</msg>
+<arg>countrySelect</arg>
+<arg>UttarPradesh</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2026-05-06T12:05:39.626552" elapsed="0.141353"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-06T12:05:44.769822" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-06T12:05:39.768277" elapsed="5.001856"/>
+</kw>
+<kw name="Select From List By Index" owner="SeleniumLibrary">
+<msg time="2026-05-06T12:05:44.771207" level="INFO">Selecting options from selection list 'countrySelect' by index 4.</msg>
+<arg>countrySelect</arg>
+<arg>4</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="PASS" start="2026-05-06T12:05:44.770670" elapsed="0.203667"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-06T12:05:49.975552" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-06T12:05:44.974694" elapsed="5.001161"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-05-06T12:05:49.976327" elapsed="2.187783"/>
+</kw>
+<status status="PASS" start="2026-05-06T12:05:12.594595" elapsed="39.569730"/>
+</test>
+<status status="PASS" start="2026-05-06T12:05:12.382982" elapsed="39.781789"/>
+</suite>
+<status status="PASS" start="2026-05-06T12:05:12.348686" elapsed="39.816477"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="Test" id="s1-s1" pass="1" fail="0" skip="0">Suites.Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
