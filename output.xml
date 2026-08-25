@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-08-21T16:32:23.377723" rpa="false" schemaversion="5">
 <suite id="s1" name="Practice1" source="C:\Users\Hp\OneDrive\Desktop\practice\practice1.robot">
 <test id="s1-t1" name="test case 1" line="5">
@@ -39,11 +40,64 @@
 <statistics>
 <total>
 <stat pass="0" fail="1" skip="0">All Tests</stat>
+=======
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-07-04T21:39:34.083325" rpa="false" schemaversion="5">
+<suite id="s1" name="Examp" source="C:\Users\Hp\OneDrive\Desktop\Robot\examp.robot">
+<test id="s1-t1" name="test case" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-04T21:39:34.268246" level="INFO">Opening browser 'Chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>https://testautomationpractice.blogspot.com/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-04T21:39:34.268031" elapsed="4.445298"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-04T21:39:38.714252" elapsed="0.042616"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-07-04T21:39:40.758333" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-07-04T21:39:38.757233" elapsed="2.001393"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-04T21:39:40.760430" level="INFO">Typing text 'prawin' into text field 'id=name'.</msg>
+<arg>id=name</arg>
+<arg>prawin</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-04T21:39:40.759404" elapsed="0.098801"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-04T21:39:40.858947" level="INFO">Typing text 'peawn@gmail.com' into text field 'id=email'.</msg>
+<arg>id=email</arg>
+<arg>peawn@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-04T21:39:40.858611" elapsed="0.068435"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-07-04T21:39:42.928642" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-07-04T21:39:40.927460" elapsed="2.001466"/>
+</kw>
+<status status="PASS" start="2026-07-04T21:39:34.267180" elapsed="8.662608"/>
+</test>
+<status status="PASS" start="2026-07-04T21:39:34.085085" elapsed="8.846699"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+>>>>>>> 42b4c703fbe5d1d1eb87f9b7bf8eb0b1bc729dc8
 </total>
 <tag>
 </tag>
 <suite>
+<<<<<<< HEAD
 <stat name="Practice1" id="s1" pass="0" fail="1" skip="0">Practice1</stat>
+=======
+<stat name="Examp" id="s1" pass="1" fail="0" skip="0">Examp</stat>
+>>>>>>> 42b4c703fbe5d1d1eb87f9b7bf8eb0b1bc729dc8
 </suite>
 </statistics>
 <errors>

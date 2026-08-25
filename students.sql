@@ -1,0 +1,5 @@
+INSERT INTO emp1 VALUES(101, 'ram', 23);
+INSERT INTO emp1 VALUES(102, 'vamsi', 26);
+INSERT INTO emp1 VALUES(103, 'shyam', 24);
+INSERT INTO emp1 VALUES(104, 'hari', 25);
+INSERT INTO emp1 VALUES(105, 'gita', 22);

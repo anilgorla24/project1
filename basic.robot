@@ -32,7 +32,7 @@ test case 1
    Sleep    1s    
 
    Select Checkbox    //input[@id="checkbox2"]
-   Sleep    1s
+   Sleep    1sgit 
 
    Select Checkbox    //input[@value="Hockey"]
    Sleep    1s

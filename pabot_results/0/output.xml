@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-05-06T11:57:36.848756" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Tables" source="C:\Users\Hp\OneDrive\Desktop\ram\parallel\tables.robot">
+<test id="s1-s1-t1" name="tables" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-05-06T11:57:37.097639" level="INFO">Opening browser 'chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>https://testautomationpractice.blogspot.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-05-06T11:57:37.097357" elapsed="6.448832"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-05-06T11:57:43.546471" elapsed="0.031023"/>
+</kw>
+<kw name="Get Element Count" owner="SeleniumLibrary">
+<msg time="2026-05-06T11:57:43.596233" level="INFO">${rows} = 7</msg>
+<var>${rows}</var>
+<arg>xpath://table[@name="BookTable"]/tbody/tr</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<status status="PASS" start="2026-05-06T11:57:43.577710" elapsed="0.018603"/>
+</kw>
+<kw name="Get Element Count" owner="SeleniumLibrary">
+<msg time="2026-05-06T11:57:43.618722" level="INFO">${cols} = 4</msg>
+<var>${cols}</var>
+<arg>xpath://table[@name="BookTable"]/tbody/tr[1]/th</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<status status="PASS" start="2026-05-06T11:57:43.596585" elapsed="0.022209"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Total Rows: ${rows}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-05-06T11:57:43.619193" elapsed="0.000985"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Total Columns: ${cols}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-05-06T11:57:43.620490" elapsed="0.000655"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-05-06T11:57:43.657438" level="INFO">${text} = Java</msg>
+<var>${text}</var>
+<arg>xpath://table[@name="BookTable"]/tbody/tr[3]/td[3]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-05-06T11:57:43.621381" elapsed="0.036156"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${text}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-05-06T11:57:43.657858" elapsed="0.000756"/>
+</kw>
+<kw name="Table Column Should Contain" owner="SeleniumLibrary">
+<arg>xpath://table[@name="BookTable"]</arg>
+<arg>3</arg>
+<arg>Subject</arg>
+<doc>Verifies table column contains text ``expected``.</doc>
+<status status="PASS" start="2026-05-06T11:57:43.658998" elapsed="0.065605"/>
+</kw>
+<kw name="Table Row Should Contain" owner="SeleniumLibrary">
+<arg>xpath://table[@name="BookTable"]</arg>
+<arg>3</arg>
+<arg>Learn Java</arg>
+<doc>Verifies that table row contains text ``expected``.</doc>
+<status status="PASS" start="2026-05-06T11:57:43.724989" elapsed="0.078332"/>
+</kw>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<msg time="2026-05-06T11:57:43.939041" level="INFO">Table cell contains 'JAVA'.</msg>
+<arg>xpath://table[@name="BookTable"]</arg>
+<arg>6</arg>
+<arg>3</arg>
+<arg>JAVA</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="PASS" start="2026-05-06T11:57:43.803736" elapsed="0.135472"/>
+</kw>
+<kw name="Table Header Should Contain" owner="SeleniumLibrary">
+<arg>xpath://table[@name="BookTable"]</arg>
+<arg>Price</arg>
+<doc>Verifies table header contains text ``expected``.</doc>
+<status status="PASS" start="2026-05-06T11:57:43.939482" elapsed="0.127911"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-05-06T11:57:44.067649" elapsed="2.168135"/>
+</kw>
+<status status="PASS" start="2026-05-06T11:57:37.096405" elapsed="9.140250"/>
+</test>
+<status status="PASS" start="2026-05-06T11:57:36.891659" elapsed="9.347020"/>
+</suite>
+<status status="PASS" start="2026-05-06T11:57:36.850835" elapsed="9.389742"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="Tables" id="s1-s1" pass="1" fail="0" skip="0">Suites.Tables</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
