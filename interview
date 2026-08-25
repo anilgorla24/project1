@@ -1,0 +1,30 @@
+# Generator : A generator is a special type of function that uses the yield keyword instead of return 
+#             to produce values one by one. It is useful for handling large datasets and infinite sequences
+#             because it generates values only when they are needed, which makes it memory efficient.
+
+# def numbers():
+#     yield 10
+#     yield 20
+#     yield 30
+
+# result = numbers()
+
+# print(next(result))
+# print(next(result))
+# print(next(result))
+
+# Decorator : A decorator is a function that adds extra functionality to another function
+#             without changing the original function's code.
+
+# def decorator(func):
+#     def wrapper():
+#         print("Before function")
+#         func()
+#         print("After function")
+#     return wrapper
+
+# @decorator
+# def hello():
+#     print("Hello")
+
+# hello()            
